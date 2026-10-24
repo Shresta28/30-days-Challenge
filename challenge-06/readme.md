@@ -20,5 +20,19 @@ A peak is a number that is greater than the two numbers that are adjacent to it.
 
 ## Algorithm
 
-1. Start the process. 
-2. Input `N` and check that
+1. Start the program.
+2. Read `N` and validate that it is between 5 and 12.
+3. Read the array elements and validate that each is between 0 and 1000.
+4. Initialize the minimum and maximum using the first array element.
+5. Traverse the array to calculate the sum, minimum, maximum, peak count, and longest increasing run.
+6. Calculate the average by dividing the sum by `N`.
+7. Find the second-largest distinct value by checking elements smaller than the maximum.
+8. Read `K` and normalize it to a value between 0 and `N - 1`.
+9. Rotate the array left using three reversals:
+   - Reverse the entire array.
+   - Reverse the first `K` elements.
+   - Reverse the remaining elements.
+10. Read `R` and calculate `D`.
+11. Count the elements divisible by `D`.
+12. Display the results and stop.
+
